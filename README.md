@@ -1,14 +1,16 @@
 # Prehistoric Creatures
----
-## Prereqs:
+
+For this lab, you're going to add a prehistoric creatures section to the `RESTful-creatures` app.
+
+### Prereqs:
 * [Layouts and Controllers](https://gawdiseattle.gitbook.io/wdi/05-node-express/00readme-1/05layouts-controllers)
 * [CRUD/RESTful Routing in Express Lesson](https://gawdiseattle.gitbook.io/wdi/05-node-express/00readme-1/00readme)
 * [GET & POST lesson/code-along](https://gawdiseattle.gitbook.io/wdi/05-node-express/00readme-1/00readme/01get-post)
 --- 
-For this lab, you're going to add a prehistoric creatures section to the `RESTful-creatures` app.
----
 
-## 1. Add a `prehistoric_creatures.json` file to your `RESTful-creatures` directory. Give it the following data:
+
+
+### 1. Add a `prehistoric_creatures.json` file to your `RESTful-creatures` directory. Give it the following data:
 ```javascript
 [
   {
@@ -31,7 +33,7 @@ For this lab, you're going to add a prehistoric creatures section to the `RESTfu
 ```
 
 
-## 2. Create the following routes:
+### 2. Create the following routes:
 
 | VERB | URL | Action (CRUD) | Description |
 |------|-----|---------------|-------------|
@@ -42,5 +44,5 @@ For this lab, you're going to add a prehistoric creatures section to the `RESTfu
 
 **Hint:** You will need to have two folders inside your `views` directory, one for `dinosaurs` and one for `prehistoric_creatures`. Make sure to change your `res.render()` statements accordingly! (Refer to the `love-it-or-leave-it` app from the Layouts and Controllers lesson.)
 
-## 3. Reorganize your routes into controllers
+### 3. Reorganize your routes into controllers
 (one controller for dinosaurs and one controller for prehistoric creatures)
