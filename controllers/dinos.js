@@ -14,6 +14,7 @@ ROUTER.get('/', (req, res) => {
     res.render('dinos/index', {dinos: dinoData });
 });
 
+
 //new - /dinos/new
 ROUTER.get('/new', (req, res) => {
     console.log('new dino')
